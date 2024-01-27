@@ -1,0 +1,63 @@
+
+
+.list1 {
+  
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lemonchiffon;
+  
+  }
+  
+  .div1 {
+  
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .name {
+  
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .dis {
+  
+    color: #666;
+  }
+  
+  .price {
+    
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .form {
+   
+    display: flex;
+    align-items: center;
+  }
+  
+  .form button {
+  
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+
+  
+  

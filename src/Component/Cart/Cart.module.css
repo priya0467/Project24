@@ -1,0 +1,107 @@
+
+.cartitems {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.cartitems li {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(177, 177, 219);
+  border-radius: 5px;
+}
+
+
+.li {
+  margin-bottom: 10px;
+}
+
+
+.name{
+  flex: 1;
+  font-style:oblique;
+  font-weight: bold;
+
+}
+
+
+.price,
+.amount {
+  margin-left: 10px;
+}
+
+
+.removeItem{
+  background-color: #dc3545; 
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.removeItem:hover {
+  background-color: #bd2130; }
+
+
+.modifyAmount:hover {
+  background-color: #45bd21; }
+ 
+.modifyAmount{
+  background-color: #19b941; 
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+
+.bt1,
+.bt2{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.bt1 {
+  background-color: #ccc;
+  color: #333;
+}
+
+.bt2 {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.bt1:hover,
+.bt2:hover {
+  background-color: #999;
+}
+
+ 
+  
+  
+  

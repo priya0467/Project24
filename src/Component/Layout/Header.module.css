@@ -1,0 +1,89 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(213, 214, 114);
+  }
+  
+  .headericon {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    color: rgb(230, 13, 13);
+  }
+  
+  .headerbutton {
+    display: flex;
+    align-items: center;
+    background-color:rgb(201, 41, 30);
+    color: #fff;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .spanicon {
+    margin-right: 0.5rem;
+  }
+  
+  .yourcart {
+    margin-right: 0.5rem;
+  }
+  
+  .num {
+    font-weight: bold;
+  }
+  
+
+  
+
+.headerimage {
+    position: relative;
+  }
+  
+  .headerimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
+  .meals {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(224, 214, 119); 
+    padding: 1rem;
+    border-radius: 16px;
+  }
+  
+ 
+  .meals h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .meals p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+  
+  
+ 
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .headericon {
+      margin-bottom: 1rem;
+    }
+  }
+  

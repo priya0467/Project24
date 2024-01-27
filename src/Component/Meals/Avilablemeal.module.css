@@ -1,0 +1,52 @@
+
+
+.list1 {
+   
+    margin-top: 150px;
+    
+    padding: 10px;
+    background-color:rgba(236, 226, 137, 0.952);
+  }
+  
+  .list2 {
+   
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  
+  .list1 {
+   
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .div1 {
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+   
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .dis {
+   
+    color: #666;
+  }
+  
+  .price {
+    
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  

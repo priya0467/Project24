@@ -1,0 +1,33 @@
+
+
+.from {
+    background-color: lemonchiffon;
+    border: none;
+    border-radius: 5px;
+    display: flex-row;
+    padding: 10px;
+    
+   
+  }
+  
+
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #d8a416;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 60px;
+  }
+  
+ 
